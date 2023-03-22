@@ -1,0 +1,57 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello", "Hi", "Hiya", "Hi there", "How are you?", "Hey", "Howdy", "How's it going?"],
+     "responses": ["Hello, how can I help you?", "Welcome", "Hi"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Goodbye", "Have a nice day!", "See you later", "Bye", "Ciao", "Ciao Ciao", "Bye Bye"],
+     "responses": ["Have a nice day!", "Goodbye", "Ciao", "OK goodbye"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Glad to be of assistance", "You're welcome", "Any time!", "It's my pleasure", "Happy to help!"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Hello, anyone there?", "Sorry, I don't understand", "Please give me some more information", "Are you still there?"]
+     },
+     {"tag": "name",
+      "patterns": ["What's your name?", "What is your name?", "Tell me your name", "Who are you?", "And you are?"],
+      "responses": ["I am Ava", "My name is Ava", "I'm Ava"]
+      },
+      {"tag": "options",
+       "patterns": ["What can you do?", "What is your purpose?", "How can you help me?", "What do you know?", "How can you help?"],
+       "responses": ["I can tell you about London", "I can assist you if you are visiting London", "I can give you some advice if you are visiting London"]
+      },
+     {"tag": "london_info",
+      "patterns": ["London", "Tell me some facts about London", "Tell me about London", "Tell me about London, England", "What do you know about London", "Tell me more about London", "What can you tell me about London", "What do you know about London,England?"],
+      "responses": ["London's 2023 population is now estimated at 10,556,486."]
+      },
+      {"tag": "london_trivia",
+       "patterns": ["Give me some trivia about London", "London Facts", "Give me some facts about London", "Tell me something interesting about London", "London interesting facts", "Tell me something interesting"],
+       "responses": [
+         "London was founded by the Romans in 43 AD. They called the new settlement Londinium, which comes from Celtic and means ‘wild’ or ‘bold’.",
+         "More people fly into London than into any other city. With six major airports, London has the world’s busiest city airport system by passenger count.",
+         "London is the 3rd most visited city in the world.",
+         "There are dozens of cities called London around the world.",
+         "London Eye is the world’s largest wheel supported on just one side.",
+         "The Tower of London is almost 1,000 years old. The Tower of London was built by William the Conqueror in 1066. For many years it was used as a prison and witnessed countless executions. It now houses the crown jewels.",
+         "Among all the fantastic attractions, London also has four UNESCO Heritage Sites: The Tower of London, The Royal Botanic Gardens at Kew, The Palace of Westminster together with Westminster Abbey, and Maritime Greenwich.",
+         "The longest-running West End musical is Agatha Christie’s The Mousetrap. It premiered in 1952. Runner-ups include Les Misérables, The Phantom of the Opera, and The Woman In Black.",
+         "London buses travel 300 million miles (482 million km) each year. This is more than 12,000 times the circumference of the Earth.",
+         "London isn’t as rainy as people think. Although notorious the world over for its rainy climate, one of the most surprising facts about London is that it’s actually way less rainy than you might think. London’s average annual precipitation is just a bit over 600 mm which is about the same amount of rain sunny Barcelona receives.",
+         "It is a very common mistake, but Big Ben is actually not the name for the iconic Tower in London. Big Ben is actually the name for the clock in the Tower. ",
+         "London Is The Smallest City In England. What you think of London is actually just a small urban area part of the Greater London region. The city of London covers only 1.2 square miles and has a population of around 7,500 residents. As such, the city of London is actually the smallest city in England. ",
+         "London has 170 museums. The British Museum, the National Gallery, the Imperial War Museum, the British Library and the Wallace Collection are just some of them.",
+         "The smallest statue in the world is built in London. A statue displaying two mice eating a piece of cheese is known as the smallest statue in the world.",
+         "More than 300 languages are spoken in London. There’s hardly any other place in the world more diverse than London. Expats coming from different nationalities share a large proportion of its population.",
+         "During history, London used to have different names including Londonium, Ludenwic, Ludenberg. The most accepted version is that the name for London has derived from the old Celtic word “Londinous” which means to be bold.",
+         "The Houses Of Parliament is the largest palace in the UK. One of many architectural landmarks that London is proud of, is definitely the Houses of Parliament or also known as the Palace of Westminster. Crowned as the largest palace in the entire country, the object was first built at the beginning of the 11th century to accommodate the King of England.",
+         "London buses were not always red. Once upon a time each of them had a different colour with each colour signifying a different route. To stand out the competition the biggest company of buses London General Omnibus Company decide to paint their buses with the red colour in 1907. Ever since London buses have been red.",
+         "It is not easy to become a Black Cab taxi driver. Black Cab drivers you see all around the city actually undergo lengthy training before they are given the job. Typically the training may last for 2 to 4 years and candidates must memorise every single street in London.",
+         "More than 80 billionaires live in London making it the city with the highest number of billionaires in the world."         
+       ]
+      }
+  ]
+}
