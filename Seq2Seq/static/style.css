@@ -1,0 +1,41 @@
+#textInput {
+    border: none;
+    border-bottom: 3px solid aqua;
+}
+#buttonInput {
+    border: none;
+    background-color:#DB3E79;/*pink*/
+}
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+.userText span {
+    background-color: #00C0A3;/*#009688;*/
+    padding: 10px;
+    border-radius: 2px;
+}
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+.botText span {
+    background-color:#008AD8;/* #EF5350;*/
+    padding: 10px;
+    border-radius: 2px;
+}
+.jumbotron{
+    /*background-color:#C1E8E0;pastel green*/
+    /*background-color:#B0E0E6;powder blue*/
+    background-color:#C8E9E9;/*ice blue*/
+    font-family: "Lobster";
+    font-size: 45px;
+    height:auto;
+    padding:15px 0 !important;
+}
